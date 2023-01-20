@@ -12,4 +12,4 @@ let nome = prompt("come ti chiami");
 let cognome = prompt("qual'e' il tuo cognome");
 let colore = prompt("colore preferito?");
 let anni = prompt("quanti anni?");
-document.getElementById('info').innerHTML;
+document.getElementById('info').innerHTML = nome + cognome + colore + anni;
